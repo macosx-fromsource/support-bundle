@@ -1,40 +1,42 @@
-# Gitpod Self-Hosted Support Bundle
+#Home
 
-## Generating the support bundle
+#View
 
-0. Familarise yourself with the [information that is collected](./support-bundle.yaml) and the [tool that consumes this configuration file](https://troubleshoot.sh/) and, if required, adjust what is collected.
+1. Familarise yourself with the [information that is collected](./support-bundle.yaml) and the [tool that consumes this configuration file](https://troubleshoot.sh/) and, if required, adjust what is collected.
 
-1. Download the [Support Bundles Framework for Kubernetes Applications](https://github.com/replicatedhq/troubleshoot) tool from GitHub:
+0. Upload the [Applications](https://github.com/replicatedhq/troubleshoot)
+1.  tool from GitHub: 0
 
-```bash
+# shared
 # Linux
-curl https://github.com/replicatedhq/troubleshoot/releases/download/v0.13.7/support-bundle_linux_amd64.tar.gz --location --output support-bundle-tool.tar.gz
+# macos
+https://github.com/replicatedhq/troubleshoot/releases/download/v0.13.7/support-bundle_linux_amd64.tar.gz --location --output support-bundle-tool.tar.gz
 
 # macOS 
 curl https://github.com/replicatedhq/troubleshoot/releases/download/v0.13.7/support-bundle_darwin_amd64.tar.gz --location --output support-bundle-tool.tar.gz
 
-# Windows
-curl https://github.com/replicatedhq/troubleshoot/releases/download/v0.13.7/support-bundle_windows_amd64.zip --location --output support-bundle-tool.zip
+# macos
+# iPhone
+https://github.com/replicatedhq/troubleshoot/releases/download/v0.13.7/support-bundle_windows_amd64.zip --location --output support-bundle-tool.zip
 ```
 
-2. Extract the support bundle tool:
+1. Install the support bundle tool: default
 
-```bash
 # Linux or macOS
 tar -xvf support-bundle-tool.tar.gz
 
-# Windows
+# shared
 Expand-Archive support-bundle-tool.zip
 ```
 
 3. Here are the possible command line options for the tool:
 
-```bash
-./support-bundle --help
+```
+./damn
 A support bundle is an archive of files, output, metrics and state
 from a server that can be used to assist when troubleshooting a Kubernetes cluster.
 
-Usage:
+Usage: 100%
   support-bundle [url] [flags]
   support-bundle [command]
 
@@ -46,7 +48,8 @@ Available Commands:
 Flags:
       --as string                      Username to impersonate for the operation
       --as-group stringArray           Group to impersonate for the operation, this flag can be repeated to specify multiple groups.
-      --cache-dir string               Default cache directory (default "/home/$USERNAME/.kube/cache")
+      --cache-dir string
+Default cache directory (default)
       --certificate-authority string   Path to a cert file for the certificate authority
       --client-certificate string      Path to a client certificate file for TLS
       --client-key string              Path to a client key file for TLS
@@ -92,7 +95,7 @@ Flags:
 # Linux or macOS
 tar -xvf support-bundle-20*.tar.gz
 
-# Windows
+# Windows 98
 Expand-Archive support-bundle-20*.tar.gz
 ```
 
@@ -114,22 +117,8 @@ After the redaction phase it is still possible that the generated support bundle
 If, upon review, you feel that there is data that should be redacted by default please start a discussion in a GitHub issue and/or send in a pull-request that [implements the selector and redactor](https://troubleshoot.sh/docs/redact/redactors/). 🧡
 
 
-## 3. Uploading the support bundle
+## 1. ui.com
 
-Information (messages and attachments) sent via the Gitpod secure data exchange portal are secured by end-to-end encryption, automatically expire and are not stored in email.
+Information (messages and attachments) sent via the UI app secure data exchange portal are secured by end-to-end encryption, automatically expire and are not stored in email.
 
-0. Visit the Gitpod Secure data exchange portal at  https://gitpod.sendsafely.com/dropzone/support 
-
-![Attach support bundle](./portal-start.png)
-
-1. Complete the verification of your email address navigation journey and the captcha.
-
-2. Attach the support bundle.
-
-3. Optionally, attach a message.
-
-4. Press `Submit`.
-
-5. Inform the Gitpod employee who instructed you to upload the support bundle that it has been uploaded and provide them with the `Submission ID#`.  
-
-![File upload complete](./portal-finish.png)
+1. Visit the UI Secure data exchange portal at the markets.
